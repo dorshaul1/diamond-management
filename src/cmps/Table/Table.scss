@@ -1,0 +1,51 @@
+@import "../../style/setup/setup.scss";
+
+.table-container {
+    margin-block: 20px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.055);
+    .no-results {
+        font-size: 3rem;
+        margin: 50px auto;
+    }
+    @media only screen and (max-width: $narrow-breakpoint) {
+        overflow-y: scroll;
+    }
+    table {
+        padding: 5px;
+        border-spacing: 0;
+        @media only screen and (max-width: $large-breakpoint) {
+            width: 100%;
+        }
+        th {
+            padding: 5px;
+            border-bottom: 2px solid $clr-primary;
+            font-size: 1rem;
+            @media only screen and (max-width: $large-breakpoint) {
+                font-size: 0.8rem;
+            }
+        }
+    }
+    .table-cell {
+        font-size: 0.8rem;
+        text-align: center;
+        height: 70px;
+        @media only screen and (max-width: $large-breakpoint) {
+            font-size: 0.6rem;
+        }
+        img {
+            width: 25px;
+        }
+
+        &.diamond-image,
+        .diamond-link {
+            a {
+                padding-left: 30%;
+            }
+            img {
+                width: 60px;
+            }
+        }
+    }
+}

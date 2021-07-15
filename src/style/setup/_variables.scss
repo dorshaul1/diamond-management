@@ -1,0 +1,33 @@
+// Colors
+$clr-black:hsl(0, 0%, 10%);
+$clr-white:hsl(0, 0%, 93%);
+
+$clr-gray-light:hsl(60, 1%, 68%);
+
+$clr-gray-dark:rgb(116, 117, 119);
+
+
+$clr-link:#89E5E0;
+$clr-primary:rgb(51, 201, 176);
+
+$clr1: rgb(255, 255, 255);
+$clr2: rgb(35, 37, 51);
+$clr3: rgb(54, 56, 73);
+
+$page-padding:0 8%;
+$page-padding-mobile:0 4%;
+// $page-padding-screen:0 ;
+
+$clr-positive:#58b84b;
+$clr-negative: #c95465;
+
+$subtle-flat-shadow:0 2px 0 0 #0000002e;
+$medium-flat-shadow:0 4px 0 0 #0000002e;
+
+// Breakpoints
+$mobile-breakpoint: 460px;
+$narrow-breakpoint: 880px;
+$normal-breakpoint: 1050px;
+$large-breakpoint: 1295px;
+
+$normal-page-width:85%;
